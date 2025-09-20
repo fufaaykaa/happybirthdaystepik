@@ -1,0 +1,141 @@
+/* Подключаем шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kablammo&display=swap');
+
+body {
+    font-family: 'Kablammo', sans-serif; /* Используем шрифт Kablammo */
+    margin: 0;
+    padding: 0;
+    background-color: #F8D7DA; /* Мягкий розовый фон */
+    color: #333;
+}
+
+/* Основной контейнер для всех страниц */
+.quiz-page {
+    padding: 20px;
+    text-align: center;
+    background: #FFD700; /* Ярко-желтый фон для вопросов */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Главная страница */
+.home-page {
+    background: #FFEB3B; /* Яркий желтый */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.home-page h1 {
+    color: #D32F2F; /* Красный */
+    font-size: 3em;
+}
+
+.home-page p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #4CAF50; /* Зеленый */
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF4081; /* Ярко-розовая */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #E91E63; /* Немного темнее розовый при наведении */
+}
+
+/* Стиль для текста подсказки */
+#feedback {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+/* Вопросы */
+.quiz-page h1 {
+    font-size: 2.5em;
+    color: #F44336; /* Красный */
+}
+
+.quiz-page p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #673AB7; /* Фиолетовый */
+}
+
+/* Изображения */
+.question-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Инпуты */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 20px 0;
+    border-radius: 25px;
+    border: 2px solid #FF4081; /* Розовая рамка */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #E91E63; /* Темно-розовая при фокусе */
+}
+
+/* Финальная страница */
+.final-page {
+    background-color: #4CAF50; /* Ярко-зеленый */
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.final-page h1 {
+    color: #FFEB3B; /* Ярко-желтый */
+    font-size: 2.5em;
+}
+
+.final-page p {
+    color: #FF4081; /* Ярко-розовый */
+    font-size: 1.5em;
+}
+
+/* Стиль для билета */
+.ticket-img {
+    max-width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Отступы и максимальная ширина */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEB3B;
+    font-family: 'Henny Penny', cursive;
+}
+
+.home-page, .quiz-page, .final-page {
+    width: 80%;
+    max-width: 600px;
+}
